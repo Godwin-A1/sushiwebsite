@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Sushi At Your Comfort</title>
+    
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<!-- =====AOS===== -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- ==========SWIPER CSS======== -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./css/design-system.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/media-query.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="flex">
+        <div class="container flex navbar">
+            <a class="navbar-logo" href="#">
+                <span>S</span>ushi
+            </a>
+            <nav class="navbar-menu">
+                <ul class="navbar-links flex">
+                    <li class="navbar-item"><a href="#home">Home</a></li>
+                    <li class="navbar-item menu-item"><a href="#Menu">Menu<i class="ri-arrow-down-s-line"></i></a>
+                    <!-- <ul class="sub-menu">
+                        <li class="navbar-item list"><a href="#">Sushi Roll</a></li>
+                        <li class="navbar-item list"><a href="#">Combination Platters</a></li>
+                        <li class="navbar-item list"><a href="#">Speciality Dishes</a></li>
+                    </ul> -->
+                    <div class="dropdown">
+                        <div class="dropdown-item">Sushi Roll</div>
+                        <div class="dropdown-item">Combination Platters</div>
+                        <div class="dropdown-item">Speciality Dishes</div>
+                    </div>
+                    </li>
+                    <li class="navbar-item"><a href="#about">About Us</a></li>
+                    <li class=" navbar-item menu-item"><a href="#menu">Services<i class="ri-arrow-down-s-line"></i></a>
+                    <!-- <ul class="sub-menu">
+                        <li class="navbar-item list"><a href="#">Catering</a></li>
+                        <li class="navbar-item list"><a href="#">Delivery and Takeout</a></li>
+                        <li class="navbar-item list"><a href="#">Private Events</a></li>
+                    </ul> -->
+                    <div class="dropdown">
+                        <div class="dropdown-item">Catering</div>
+                        <div class="dropdown-item">Delivery and Takeout</div>
+                        <div class="dropdown-item">Private Events</div>
+                    </div>
+                    
+                    </li>
+                    <li class="navbar-item"><a href="#Offers">Offers</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-icons flex">
+                <span><img src="./icons/search.svg" alt="" width="20"></span>
+                <span><img src="./icons/moon.svg" alt="" width="20"></span>
+                <span><img src="./icons/bag.svg" alt="" width="20"></span>
+                <a href="#" class="cta flex contact-icon">
+                    <i class="ri-phone-line"></i>
+                  <span class="contact-text">Contact</span>
+
+                </a>
+
+                <div class="open-close-container">
+                    <span class="open-icon"><i class="ri-menu-4-fill"></i></span>
+                    <span class="close-icon hide"><i class="ri-close-fill"></i></span>
+
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- main -->
+<main>
+    <!-- hero section -->
+
+     <section class="hero" id="hero">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <div class="hero-content-left">
+                    <h1 class="hero-title">Sushi Bliss, Every, <br>Roll a Flavorful <br> <span>Kiss</span></h1>
+                    <h3 class="hero-sub-title">
+                        Masters of Maki: Elevate Your Taste Buds with Our Sushi <br> Creations, Where Tradition
+                        <br>Meets Innovation!
+
+                    </h3>
+                    <div class="hero-buttons">
+                        <a href="#" class="hero-cta">Order Now</a>
+                        <a href="#" class="hero-play-button">Watch Video <span class="play-icon"><i class="ri-play-fill"></i></span></a>
+                    </div>
+
+                </div>
+                <div class="hero-content-right">
+                    <div class="hero-blob">
+                        <div class="hero-blob-bubble">
+                            <div class="hero-blob-title">Best Sushi Ever!</div>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <img class="image-header" src="./images/main_header.png" alt="hero-image">
+                    </div>
+                     <div class="hero-card-container">
+                        <div class="hero-card-content">
+                                <div class="hero-card-blob">
+                                <img class="image-card-img" src="./images/hero card makisushi.png" alt="">
+                                <div class="image-card-data">
+                                    <p class="image-card-title">Makisushi</p>
+                                    <div class="image-card-ratings">
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                    </div>
+                                    <h3 class="image-card-price"><span>$</span>20.99</h3>
+                                </div>
+                            </div>
+                            <div class="hero-card-blob">
+                                <img class="image-card-img" src="./images/hero card califonia roll.png" alt="">
+                            <div class="image-card-data">
+                                <div class="image-card-data">
+                                    <p class="image-card-title">California Roll</p>
+                                    <div class="image-card-ratings">
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-fill"></i>
+                                        <i class="ri-star-s-line"></i>
+                                        <i class="ri-star-s-line"></i>
+                                    </div>
+                                    <h3 class="image-card-price"><span>$</span>27.00</h3>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     </section>
+     
+
+     <!-- Popular Category -->
+      <section class="popular-category">
+        <div class="popular-container container">
+            <div class="popular-data">
+                <h3 class="section-title-alt">Customers Favorite</h3>
+                <h1 class="section-title">Popular Categories</h1>
+            </div>
+        </div>
+        <div class="popular-content">
+            <div class="popular-wrapper">
+                <div class="popular-blob">
+                    <img class="popular-img" src="./images/popular image 1 (1).png" alt="">
+                </div>
+                <div class="popular-text">
+                    <h1 class="popular-title">Main Dish</h1>
+                    <span class="popular-subtitle">(16 dishes)</span>
+                </div>
+            </div>
+            <div class="popular-wrapper">
+                <div class="popular-blob">
+                    <img class="popular-img" src="./images/popular image 1 (1).png" alt="">
+                </div>
+                <div class="popular-text">
+                    <div class="popular-title">Main Dish</div>
+                    <div class="popular-subtitle">(16 dishes)</div>
+                </div>
+            </div>
+            <div class="popular-wrapper">
+                <div class="popular-blob">
+                    <img class="popular-img" src="./images/popular image 1 (1).png" alt="">
+                </div>
+                <div class="popular-text">
+                    <div class="popular-title">Main Dish</div>
+                    <div class="popular-subtitle">(16 dishes)</div>
+                </div>
+            </div>
+            <div class="popular-wrapper">
+                <div class="popular-blob">
+                    <img class="popular-img" src="./images/popular image 1 (1).png" alt="">
+                </div>
+                <div class="popular-text">
+                    <div class="popular-title">Main Dish</div>
+                    <div class="popular-subtitle">(16 dishes)</div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Best Dishes Category -->
+    <section class="best-dishes">
+        <div class="best-dishes-container container">
+            <div class="best-dishes-data">
+                <h3 class="section-title-alt">special dishes</h3>
+                <h1 class="section-title">Best Dish From Our Menu</h1>
+            </div>
+        </div>
+        <div class="best-dishes-content  container">
+            <div class="swiper-wrapper best-dishes-wrapper">
+                <div class="best-dishes-card swiper-slide">
+                    <div class="best-dishes-icon">
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                    <div class="best-dish-content">
+                        <div class="best-dish-image">
+                            <img class="dish-image" src="./images/popular image 1.png" alt="">
+                        </div>
+                        <div class="dish-text">
+                            <h2 class="dish-title">Best Sushi Salad</h2>
+                            <p class="dish-description">Description of item</p>
+                        </div>
+                        <div class="dish-data">
+                            <h2 class="dish-price">
+                                <span>$</span>25
+                            </h2>
+                            <p class="dish-rating">
+                                <i class="ri-star-s-fill"></i> 4.7
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-dishes-card swiper-slide">
+                    <div class="best-dishes-icon">
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                    <div class="best-dish-content">
+                        <div class="best-dish-image">
+                            <img class="dish-image" src="./images/popular image 1.png" alt="">
+                        </div>
+                        <div class="dish-text">
+                            <h2 class="dish-title">Best Sushi Salad</h2>
+                            <p class="dish-description">Description of item</p>
+                        </div>
+                        <div class="dish-data">
+                            <h2 class="dish-price">
+                                <span>$</span>
+                                      25
+                            </h2>
+                            <span class="dish-rating">
+                                <i class="ri-star-s-fill"></i>
+                                       4.7
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-dishes-card swiper-slide">
+                    <div class="best-dishes-icon">
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                    <div class="best-dish-content">
+                        <div class="best-dish-image">
+                            <img class="dish-image" src="./images/popular image 1.png" alt="">
+                        </div>
+                        <div class="dish-text">
+                            <h2 class="dish-title">Best Sushi Salad</h2>
+                            <p class="dish-description">Description of item</p>
+                        </div>
+                        <div class="dish-data">
+                            <h2 class="dish-price">
+                                <span>$</span>
+                                      25
+                            </h2>
+                            <span class="dish-rating">
+                                <i class="ri-star-s-fill"></i>
+                                       4.7
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="best-dishes-card swiper-slide">
+                    <div class="best-dishes-icon">
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                    <div class="best-dish-content">
+                        <div class="best-dish-image">
+                            <img class="dish-image" src="./images/popular image 1.png" alt="">
+                        </div>
+                        <div class="dish-text">
+                            <h2 class="dish-title">Best Sushi Salad</h2>
+                            <p class="dish-description">Description of item</p>
+                        </div>
+                        <div class="dish-data">
+                            <h2 class="dish-price">
+                                <span>$</span>
+                                      25
+                            </h2>
+                            <span class="dish-rating">
+                                <i class="ri-star-s-fill"></i>
+                                       4.7
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="swipers-container">
+            <div class="swipers swiper-one"><i class="ri-arrow-left-s-line"></i></div>
+            <div class="swipers swiper-two"><i class="ri-arrow-right-s-line"></i></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials container">
+        <div data-aos="fade-right">
+            <div class="tst-main">
+                <div class="testimonial-blob">
+                    <img class="testimonials-image" src="./images/testimonial 2.png" alt="">
+                </div>
+                <div class="testimonial-bubble">
+                    <div class="testimonial-bubble-text">Our Best Chef 😊</div>
+                </div>
+            </div>
+        </div>
+            
+        <div data-aos="fade-left">
+            <div class="testimonials-data">
+                <h2 class="testimonials-data-title section-title-alt">TESTIMONIALS</h2>
+                <h1 class="testimonials-data-subtitle">What our customers <div>says about us</div></h1>
+                <div class="testimonial-data-text">
+                    <i class="ri-double-quotes-l quotes"></i>
+                    <p class="testimonial-description">“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+                </div>
+                <div class="testimonial-blob-image">
+                   <div class="testimonial-image">
+                    <img src="./images/testimonial1.jpg" alt="" class="image-1 tst-image">
+                    <img src="./images/testimonial2.jpg" alt="" class="image-2 tst-image">
+                    <img src="./images/testimonial3.jpg" alt="" class="image-3 tst-image">
+                  </div>
+                    <div class="testimonial-feedback">
+                        <h2 class="feedback">Customers <br>feedback</h2>
+                        <p class="feedback-ratings">
+                            <i class="ri-star-fill"></i>
+                            4.9
+                            <span>(18.6k reviews)</span>
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <!-- Services -->
+    <section class="services-container container">
+        <div class="services">
+            <h2 class="section-title-alt services-title">our story and services</h2>
+            <h1 class="section-title serve">Our Culinary Journey And Services</h1>
+            <p class="serv">Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.</p>
+            <div class="ffff"><a href="#" class="cta explore">Explore</a></div>
+        </div>
+        <div class="ssss">
+            <div class="services services-grid">
+                <div class="services-card">
+                    <i class="ri-bowl-line"></i>
+                    <div class="services-card-data">
+                        <h3 class="data-title">CATERING</h3>
+                        <p class="data-description">Delight your guests with our flavors and presentation</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <i class="ri-bowl-line"></i>
+                    <div class="services-card-data">
+                        <h3 class="data-title">CATERING</h3>
+                        <p class="data-description">Delight your guests with our flavors and presentation</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <i class="ri-bowl-line"></i>
+                    <div class="services-card-data">
+                        <h3 class="data-title">CATERING</h3>
+                        <p class="data-description">Delight your guests with our flavors and presentation</p>
+                    </div>
+                </div>
+                <div class="services-card">
+                    <i class="ri-bowl-line"></i>
+                    <div class="services-card-data">
+                        <h3 class="data-title">CATERING</h3>
+                        <p class="data-description">Delight your guests with our flavors and presentation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <footer class="footer-container container">
+            <div class="footer-content">
+                <a class="navbar-logo" href="#">
+                    <span>S</span>ushi
+                </a>
+                <p class="footer-text">Savor the artistry where every dish is a culinary masterpiece</p>
+            </div>
+            <div class="footer-content info-grid">
+                <div class="information">
+                    <h4 class="footer-title">Useful Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <h4 class="footer-title">Useful Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <h4 class="footer-title">Useful Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="last">
+            <div class="container">
+                <div class="footer-group">
+                    <div class="footer-icons">
+                        <a class="footer-socials" href=""><i class="ri-facebook-circle-line"></i></a>
+                        <a class="footer-socials" href=""><i class="ri-twitter-x-line"></i></a>
+                        <a class="footer-socials" href=""><i class="ri-instagram-line"></i></a>
+                    </div>
+                    <div class="footer-terms-container">
+                        <div class="footer-terms">
+                            <a href="#">Terms & Agreements</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="footer-copyright">
+                            123; Copyright&copy; JNS. All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main> 
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  }
+    });
+  </script> 
+</body>
+</html>
